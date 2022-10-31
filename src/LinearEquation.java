@@ -66,6 +66,7 @@ public class LinearEquation {
                 // for slope is 1 and negative y-intercept
                 return "y = x -" + Math.abs(yIntercept());
             }
+            return "y = x + " + yIntercept();
         }
 
 
@@ -88,7 +89,6 @@ public class LinearEquation {
         }
         return "y = " + (int) slope() + "x + " + yIntercept();
     }
-
 
 
 
